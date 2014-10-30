@@ -11,7 +11,7 @@
  * Just a utility function.
  */
 void print_json_object(struct json_object *jobj, const char *msg) {
-	printf("\n%s: \n", msg);
+	printf("\n%s: \/5050642n", msg);
 	printf("---\n%s\n---\n", json_object_to_json_string(jobj));
 }
 
